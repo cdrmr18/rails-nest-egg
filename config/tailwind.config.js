@@ -10,17 +10,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ["Comfortaa", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {
           900: "#020826",
         },
         pg: {
-          900: "#716040",
+          700: "#716040",
         },
         "pg-white": {
-          900: "#716040",
+          50: "#fffffe",
         },
         btn: {
           50: "#f6f5f0",
@@ -47,8 +47,10 @@ module.exports = {
           900: "#81231b",
         },
         background: {
-          800: "#eaddcf",
-          900: "#f9f4ef",
+          50: "#faf6f2",
+          100: "#f2ebe2",
+          200: "#f9f4ef",
+          300: "#d4b89d",
         },
       },
     },
